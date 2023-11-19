@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #1c5148;
+  height: 100%;
+  font-family: "Hubballi-Regular", Helvetica;
+  overflow: hidden;
+}
+
+.brand-logo-desktop {
+  display: none;
+}
+@media (min-width: 992px) {
+  .brand-logo-desktop {
+    margin-left: auto;
+    display: block;
+  }
+}
+.brand-logo-mobile {
+  display: none;
+}
+@media (max-width: 992px) {
+  .brand-logo-mobile {
+    display: block;
+    margin: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
