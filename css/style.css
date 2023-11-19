@@ -1,9 +1,22 @@
+@font-face {
+  font-family: "Hubballi-Regular";
+  src: url(../../fonts/Hubballi-Regular.ttf);
+}
 body {
   margin: 0;
   background-color: #1c5148;
   height: 100%;
   font-family: "Hubballi-Regular", Helvetica;
   overflow: hidden;
+  width: 100%;
+}
+
+.navbar {
+  text-align: center;
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .brand-logo-desktop {
@@ -11,8 +24,7 @@ body {
 }
 @media (min-width: 992px) {
   .brand-logo-desktop {
-    margin-left: auto;
-    display: block;
+    display: flex;
   }
 }
 .brand-logo-mobile {
@@ -20,7 +32,26 @@ body {
 }
 @media (max-width: 992px) {
   .brand-logo-mobile {
-    display: block;
-    margin: 20px;
+    display: flex;
   }
+}
+.brand-logo-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.nav-link {
+  font-family: "Hubballi-Regular", Helvetica;
+  margin: 0px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mr-auto {
+  display: flex;
+  flex-direction: row;
+}
+.mr-auto > * {
+  margin: -150px 300px;
 }/*# sourceMappingURL=style.css.map */

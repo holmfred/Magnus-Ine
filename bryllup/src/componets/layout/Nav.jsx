@@ -8,34 +8,44 @@ import Logo from './../../assets/Logo.png';
 export default function NAV() {
   
   return (
-    <header id="header">
+    <Container>
       <NavLink to="/" className="brand-logo-mobile">
         <img src={Logo} alt="Logo" className='brand-logo-image'/>
       </NavLink>
       <NavLink to="/" className="brand-logo-desktop">
         <img src={Logo} alt="Logo" className='brand-logo-image'/>
       </NavLink>
+    <Navbar collapseOnSelect expand="lg" className="navbar">
       <Container className='nav-container'>
         <Navbar.Collapse id="resposive-navbar-nav">
-          <Nav>
-            <NavLink to="/Program" className="nav-link">
-                  Program
-            </NavLink>
-            <NavLink to="/Guests" className="nav-link">
-                  Gjesteliste
-            </NavLink>
-            <NavLink to="/Info" className="nav-link">
-                  Generell Info
-            </NavLink>
-            <NavLink to="/About" className="nav-link">
-                  Om Oss
-            </NavLink>
-            <NavLink to="/Wishlist" className="nav-link">
-                  Ønskeliste
-            </NavLink>
+          <Nav className='mr-auto'>
+            <div className='navbar-link-left'>
+              <NavLink to="/" className="nav-link"> 
+                    Forside
+              </NavLink>
+              <NavLink to="/Program" className="nav-link">
+                    Program
+              </NavLink>
+              <NavLink to="/Guests" className="nav-link">
+                    Gjesteliste
+              </NavLink>
+            </div>
+            <div className='navbar-link-right'>
+              <NavLink eventkey="4" as={NavLink} to="/Info" className="nav-link">
+                    Generell Info
+              </NavLink>
+              <NavLink to="/About" className="nav-link">
+                    Om Oss
+              </NavLink>
+              <NavLink to="/Wishlist" className="nav-link">
+                    Ønskeliste
+              </NavLink>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </header>
+    </Navbar> 
+  </Container>
+  
   );
 }
