@@ -30,6 +30,9 @@ export default function NAV() {
             <NavLink to="/About" className="nav-link">
                   Om Oss
             </NavLink>
+            <NavLink to="/Wishlist" className="nav-link">
+                  Ønskeliste
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
