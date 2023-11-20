@@ -1,0 +1,21 @@
+{
+    "wishes": [
+        {
+            "wishName": "Wish 1",
+            "description": "This is a description of wish 1",
+            "url": "https://example.com/wish1"
+        },
+        {
+            "wishName": "Wish 1",
+            "description": "This is a description of wish 1",
+            "url": "https://example.com/wish1"
+        },
+        {
+            "wishName": "Wish 2"
+        },
+        {
+            "wishName": "Wish 3",
+            "url": "https://example.com/wish3"
+        }
+    ]
+}
