@@ -34,9 +34,6 @@ export default function NAV() {
               <NavLink eventkey="4" as={NavLink} to="/Info" className="nav-link">
                     Generell Info
               </NavLink>
-              <NavLink to="/About" className="nav-link">
-                    Om Oss
-              </NavLink>
               <NavLink to="/Wishlist" className="nav-link">
                     Ønskeliste
               </NavLink>

@@ -5,13 +5,14 @@ import Heading from "../layout/Heading";
 function Wishlist() {
     return (
         <div>
-            <Heading />
+            <Heading size="2" content={"Ønskeliste"}/>
             <ul>
                 {wishesData.wishes.map((wish, index) => (
                     <li key={index}>
                         <h3>{wish.wishName}</h3>
-                        
+                        {wish.url &&
                         <a href={wish.url}>View Wish</a>
+                        }
                     </li>
                 ))}
             </ul>
