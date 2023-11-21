@@ -16,16 +16,18 @@ import Footer from "./componets/layout/Footer.jsx";
 function App() {
   return (
           <Router>
-            <NAV/>
-              <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/Program' element={<Program />} />
-                <Route path='/Guests' element={<Guests />} />
-                <Route path='/Info' element={<Info />} />
-                <Route path='/About' element={<About />} />
-                <Route path='/Wishlist' element={<Wishlist />} />
-              </Routes>
-            <Footer />
+            <body>
+              <NAV/>
+                <Routes>
+                  <Route path='/' element={<Home />} />
+                  <Route path='/Program' element={<Program />} />
+                  <Route path='/Guests' element={<Guests />} />
+                  <Route path='/Info' element={<Info />} />
+                  <Route path='/About' element={<About />} />
+                  <Route path='/Wishlist' element={<Wishlist />} />
+                </Routes>
+              <Footer />
+            </body>
           </Router>
   );
 }
