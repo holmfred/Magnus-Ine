@@ -5,15 +5,14 @@
   justify-content: center;
 }
 
-.nav-container {
- 
-  &-left,
-  &-right {
+.nav-desktop {
+  display: none;
+
+  @media (min-width: 992px){
     display: flex;
     flex-direction: row;
-    margin-top: -180px;
-  }
-    
+    margin-top: -280px;
+   }
 }
 
 .brand-logo {
@@ -72,3 +71,4 @@
   background-color: $background-color;
   font-size: 40px;
 }
+
