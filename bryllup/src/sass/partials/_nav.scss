@@ -1,9 +1,19 @@
 .navbar {
   text-align: center;
   font-size: 28px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: center;
+}
+
+.nav-container {
+ 
+  &-left,
+  &-right {
+    display: flex;
+    flex-direction: row;
+    margin-top: -180px;
+  }
+    
 }
 
 .brand-logo {
@@ -25,15 +35,27 @@
     &-image {
       margin-left: auto;
       margin-right: auto;
-      width: 450px;
+      max-width: 200px;
+      
+      @media (min-width: 500px) {
+        max-width: 300px;
+
+      }
+      @media (min-width: 992px) {
+        max-width: 450px;
+      }
     }
   }
 
 .nav-link {
   font-family: "Hubballi-Regular", Helvetica;
-  margin: 0px 10px;
+  margin: 0px 20px;
   color: #fff;
   text-decoration: none;
+}
+
+.active {
+  color: #fff !important;
 }
 
 .mr-auto {
@@ -43,6 +65,10 @@
   & > * {
     margin: -150px 300px;
   }
+}
 
-
+.fa-bars {
+  color: #fff;
+  background-color: $background-color;
+  font-size: 40px;
 }
