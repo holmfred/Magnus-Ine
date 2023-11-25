@@ -1,15 +1,14 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-
-const CardGrid = ({ cards }) => {
+const CardGrid = ({ items }) => {
     return (
         <div className={"cardGrid"}>
-            {cards.map((card, index) => (
+            {items.map((item, index) => (
                 <Card key={index}>
                     <Card.Body>
-                        <Card.Title>{card.title}</Card.Title>
-                        <Card.Text>{card.text}</Card.Text>
+                        <Card.Title>{item.title}</Card.Title>
+                        <Card.Text>{item.text}</Card.Text>
                     </Card.Body>
                 </Card>
             ))}

@@ -1,23 +1,16 @@
 import React from "react";
-import wishesData from '../../assets/wishes.json';
+import wishesData from "../../assets/wishes.json";
 import Heading from "../layout/Heading";
+import CardGrid from "../CardGrid";
 
 function Wishlist() {
-    return (
-        <div>
-            <Heading size="2" content={"Ønskeliste"}/>
-            <ul>
-                {wishesData.wishes.map((wish, index) => (
-                    <li key={index}>
-                        <h3>{wish.wishName}</h3>
-                        {wish.url &&
-                        <a href={wish.url}>View Wish</a>
-                        }
-                    </li>
-                ))}
-            </ul>
-        </div>
-    )
+  return (
+    <>
+      <Heading size="2" content={"Ønskeliste"} />
+      <p>Vi ønsker oss også pengegaver</p>
+      <CardGrid items={wishesData.items} />
+    </>
+  );
 }
 
 export default Wishlist;

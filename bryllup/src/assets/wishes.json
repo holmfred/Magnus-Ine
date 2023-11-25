@@ -1,20 +1,17 @@
 {
-    "wishes": [
+    "items": [
         {
-            "wishName": "Kitchen ønskeliste",
-            "description": "Vi har satt opp en ønskeliste på Kitchen.",
+            "title": "Kitchen ønskeliste",
+            "text": "Vi har satt opp en ønskeliste på Kitchen.",
             "url": "https://www.kitchn.no/bryllup/vis-liste/165783/?fbclid=IwAR2SH42RvdWuGQhJV6501M6gFGSRYBvuZcCXWhbv12hnt06QK9uuVNw9mxo"
         },
         {
-            "wishName": "Harry Potter Lego - Hogwarts Castle",
-            "description": "Hva er mer essensielt til å starte et liv sammen som ektepar enn å bygge Hogwarts Castle i sammen?",
+            "title": "Harry Potter Lego - Hogwarts Castle",
+            "text": "Hva er mer essensielt til å starte et liv sammen som ektepar enn å bygge Hogwarts Castle i sammen?",
             "url": "https://lekekassen.no/lego-harry-potter-71043-hogwarts-castle?utm_medium=prisjakt&utm_source=prisjakt"
         },
         {
-            "wishName": "Penger til bryllupsreise"
-        },
-        {
-            "wishName": "Mer ønsker kommer fortløpende..."
+            "title": "Mer ønsker kommer fortløpende..."
         }
     ]
 }

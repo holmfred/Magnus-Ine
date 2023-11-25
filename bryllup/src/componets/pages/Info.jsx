@@ -1,9 +1,9 @@
-import Heading from "../layout/Heading"
 import React from 'react';
 import CardGrid from "../CardGrid";
+import Heading from "../layout/Heading";
 
 function Info() {
-    const cards = [
+    const items = [
         {
             title: "Parkering ved lokalet",
             text: "Det er stor parkering ved lokalet. Det er mulig å la bilen stå over natten og hente den dagen etter."
@@ -13,19 +13,26 @@ function Info() {
             text: "Maten vil være buffet med flere valgmuligheter. Gi beskjed om allergier eller andre spesielle behov."
         },
         {
-            title: "Transportation",
-            text: "Shuttle buses will be provided from designated locations to the venue. Please check the schedule for pick-up and drop-off times."
+            title: "Vielsen i kirka",
+            text: "Vielsen vil foregå finne sted i Ullensaker Kirke. Alle er hjertlig velkommen i kirka til vielsen." 
         },
         {            
                 title: "Klesskode",
-                text: "Kleskoden for bryllupet er formell. Vi ber vennligst alle gjester om å følge kleskoden."
-        }
+                text: "Kleskoden for bryllupet er formelt. Dress, blaser, skjorte og dressbukse, kjole (ikke hvit) Vi ber vennligst alle gjester om å følge kleskoden."
+        },
+        {
+            title: "Bryllupsfesten og alkohol",
+            text: "Det vil være alkoholservering på bryllupsfesten etter middag. Vi stiller med bar med øl, vin og et par utvalgte drinker med bekjente i som bartendere <3. Ønsker du noe annet, ta gjerne med selv det er lov å ta med medbrakt på lokalet."
+        },
     ];
+
+
+    console.log(items);
 
     return (
         <>
             <Heading size="2" content={"Informasjon"} />
-            <CardGrid cards={cards} />
+            <CardGrid items={items} />
         </>
     );
 }

@@ -29,7 +29,7 @@ export default function NAV() {
               Gjesteliste
             </NavLink>
             <NavLink to="/Info" className="nav-link">
-              Generell Info
+              Info
             </NavLink>
             <NavLink to="/Wishlist" className="nav-link">
               Ønskeliste
