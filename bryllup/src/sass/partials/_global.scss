@@ -10,7 +10,8 @@ body {
     background-color: $background-color;
     height: 100%;
     font-family: "Hubballi-Regular", Helvetica;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     width: 100%;
     color: white;
     padding: 10px;
