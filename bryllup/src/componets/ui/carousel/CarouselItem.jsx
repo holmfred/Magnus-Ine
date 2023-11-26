@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 const CarouselItem = ({ imagePath, itemDescription }) => {
   return (
     <Carousel.Item>
-      <img src={"../assets/bannerphoto.svg"} alt={itemDescription} />
+      <img src={"./banner.png"} alt={itemDescription} />
     </Carousel.Item>
   );
 };
