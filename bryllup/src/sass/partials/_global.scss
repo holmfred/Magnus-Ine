@@ -7,7 +7,11 @@
 
 //Header
 #header {
-  margin-top: -60px;
+  margin-top: -30px;
+  
+  @media (min-width:992px) {
+    margin-top: -60px;
+  }
 }
 
 // Body
