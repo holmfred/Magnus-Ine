@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Magnus-Ine/static/css/main.9a32a319.css",
+    "main.js": "/Magnus-Ine/static/js/main.c046f07c.js",
+    "static/js/787.edd87ce6.chunk.js": "/Magnus-Ine/static/js/787.edd87ce6.chunk.js",
+    "static/media/banner.png": "/Magnus-Ine/static/media/banner.f136a4fa0eb404d09242.png",
+    "static/media/Hubballi-Regular.ttf": "/Magnus-Ine/static/media/Hubballi-Regular.d67593baca758216d0d3.ttf",
+    "static/media/Logo.png": "/Magnus-Ine/static/media/Logo.8deb63bbda5c1e0db0e5.png",
+    "index.html": "/Magnus-Ine/index.html",
+    "main.9a32a319.css.map": "/Magnus-Ine/static/css/main.9a32a319.css.map",
+    "main.c046f07c.js.map": "/Magnus-Ine/static/js/main.c046f07c.js.map",
+    "787.edd87ce6.chunk.js.map": "/Magnus-Ine/static/js/787.edd87ce6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a32a319.css",
+    "static/js/main.c046f07c.js"
+  ]
+}
