@@ -1,21 +1,21 @@
 import Carousel from 'react-bootstrap/Carousel';
-import CarouselItem from './CarouselItem';
+import Banner from './../carousel/banner.png'
 
 function MainCarousel() {
   return (
     <Carousel>
-      <Carousel.Item interval={1000}>
-        <CarouselItem imagePath={"../../assets/bannerphoto.svg"} itemDescription={"Vi gleder oss veldig!"}  />
+      <Carousel.Item interval={10000}>
+        <img src={Banner} alt='Vi gleder oss veldig!' className='carousel-img'/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          {/* <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <CarouselItem  imagePath={"../assets/bannerphoto.svg"} itemDescription={"Hype!"} />
+      <Carousel.Item interval={5000}>
+        <img src={Banner} alt='Hype' className='carousel-img' />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          {/* <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
