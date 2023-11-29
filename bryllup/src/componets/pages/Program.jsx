@@ -5,7 +5,7 @@ function Program () {
     return ( 
         <>
         <Heading size="2" content={"Program"} />
-        <p>Dette er en foreløpig tidsplan, som kommer til å endre seg frem mot dagen.</p>
+        <p>Dette er en foreløpig tidsplan, som kommer til å endre seg og bli mer detaljer frem mot dagen.</p>
         <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>13:00 Vielse i Ullensaker Kirke</Accordion.Header>
@@ -26,13 +26,13 @@ function Program () {
           Brudeparet er på fotografering alene. 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="2">
+      <Accordion.Item eventKey="3">
         <Accordion.Header> 15:30 - Gjestene velkommes på lokalet</Accordion.Header>
         <Accordion.Body>
           Det blir servert bobler og snitter på lokalet. Ønsket velkommen av vår kjære toastmaster Tobias Uran Brakstad.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="3">
+      <Accordion.Item eventKey="4">
         <Accordion.Header> 17:00 - Bryllupsmiddag</Accordion.Header>
         <Accordion.Body>
           Bryllupmiddagen blir servert i lokalet med en grillbuffet fra 

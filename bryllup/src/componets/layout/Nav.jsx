@@ -20,9 +20,6 @@ export default function NAV() {
           
         <div className="nav-desktop">
           <div className="nav-desktop-left">
-            <NavLink to="/" className="nav-link">
-              Forside
-            </NavLink>
             <NavLink to="/Program" className="nav-link">
               Program
             </NavLink>
