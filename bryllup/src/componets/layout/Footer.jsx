@@ -8,7 +8,7 @@ export default function Footer() {
     return (
 
         <header id="footer">
-            <Navbar expand="lg">
+            <Navbar expand="xl">
                 <Container className="mobile-nav-container">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav">
                     <i className="fa-solid fa-bars" ></i>

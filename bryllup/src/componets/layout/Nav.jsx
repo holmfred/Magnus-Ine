@@ -19,6 +19,7 @@ export default function NAV() {
         <Container className="nav-container">
           
         <div className="nav-desktop">
+          <div className="nav-desktop-left">
             <NavLink to="/" className="nav-link">
               Forside
             </NavLink>
@@ -28,12 +29,15 @@ export default function NAV() {
             <NavLink to="/Guests" className="nav-link">
               Gjesteliste
             </NavLink>
+          </div>
+          <div className="nav-desktop-right">
             <NavLink to="/Info" className="nav-link">
               Info
             </NavLink>
             <NavLink to="/Wishlist" className="nav-link">
               Ønskeliste
             </NavLink>
+          </div>
           </div>
         </Container>
       </Navbar>

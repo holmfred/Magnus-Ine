@@ -1,7 +1,7 @@
 .mobile-nav-container {
     display: none !important;
   
-    @media (max-width: 991px) {
+    @media (max-width: 1200px) {
       display: block !important;
       bottom: 0 !important;
     }
