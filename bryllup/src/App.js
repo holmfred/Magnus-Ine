@@ -20,10 +20,10 @@ function App() {
                 <main>
                   <Routes>
                     <Route path='/Magnus-Ine' element={<Home />} />
-                    <Route path='/Program' element={<Program />} />
-                    <Route path='/Gjesteliste' element={<Guests />} />
-                    <Route path='/Informasjon' element={<Info />} />
-                    <Route path='/Ønskeliste' element={<Wishlist />} />
+                    <Route path='/Magnus-Ine/Program' element={<Program />} />
+                    <Route path='/Magnus-Ine/Gjesteliste' element={<Guests />} />
+                    <Route path='/Magnus-Ine/Informasjon' element={<Info />} />
+                    <Route path='/Magnus-Ine/Ønskeliste' element={<Wishlist />} />
                   </Routes>
                 </main>
               <Footer />

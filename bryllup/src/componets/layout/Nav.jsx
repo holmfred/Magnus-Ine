@@ -9,7 +9,7 @@ export default function NAV() {
 
   return (
     <header id="header">
-      <NavLink to="/" className="brand-logo-mobile">
+      <NavLink to="/Magnus-Ine" className="brand-logo-mobile">
         <img src={LogoWBackground} alt="Logo" className="brand-logo-image" />
       </NavLink>
       <Navbar expand="lg">
@@ -20,18 +20,18 @@ export default function NAV() {
           
         <div className="nav-desktop">
           <div className="nav-desktop-left">
-            <NavLink to="/Program" className="nav-link">
+            <NavLink to="/Magnus-Ine/Program" className="nav-link">
               Program
             </NavLink>
-            <NavLink to="/Gjesteliste" className="nav-link">
+            <NavLink to="/Magnus-Ine/Gjesteliste" className="nav-link">
               Gjesteliste
             </NavLink>
           </div>
           <div className="nav-desktop-right">
-            <NavLink to="/Informajson" className="nav-link">
+            <NavLink to="/Magnus-Ine/Informasjon" className="nav-link">
               Info
             </NavLink>
-            <NavLink to="/Ønskeliste" className="nav-link">
+            <NavLink to="/Magnus-Ine/Ønskeliste" className="nav-link">
               Ønskeliste
             </NavLink>
           </div>
