@@ -13,7 +13,7 @@ export default function NAV() {
         <img src={LogoWBackground} alt="Logo" className="brand-logo-image" />
       </NavLink>
       <Navbar expand="lg">
-        <NavLink to="/" className="brand-logo-desktop">
+        <NavLink to="/Magnus-Ine" className="brand-logo-desktop">
           <img src={LogoWBackground} alt="Logo" className="brand-logo-image" />
         </NavLink>
         <Container className="nav-container">
@@ -23,15 +23,15 @@ export default function NAV() {
             <NavLink to="/Program" className="nav-link">
               Program
             </NavLink>
-            <NavLink to="/Guests" className="nav-link">
+            <NavLink to="/Gjesteliste" className="nav-link">
               Gjesteliste
             </NavLink>
           </div>
           <div className="nav-desktop-right">
-            <NavLink to="/Info" className="nav-link">
+            <NavLink to="/Informajson" className="nav-link">
               Info
             </NavLink>
-            <NavLink to="/Wishlist" className="nav-link">
+            <NavLink to="/Ønskeliste" className="nav-link">
               Ønskeliste
             </NavLink>
           </div>

@@ -6,7 +6,7 @@ function Info() {
     const items = [
         {
             title: "Parkering ved lokalet",
-            text: "Det er stor parkering ved lokalet. Det er mulig å la bilen stå over natten og hente den dagen etter."
+            text: "Det er stor parkering på lokalet. Der er det mulig å la bilen stå over natten og hente den langt utpå dagen etter."
         },
         {
             title: "Mat og Allergier",
@@ -14,20 +14,17 @@ function Info() {
         },
         {
             title: "Vielsen i kirka",
-            text: "Vielsen vil foregå finne sted i Ullensaker Kirke. Alle er hjertlig velkommen i kirka til vielsen." 
+            text: "Vielsen vil finne sted i Ullensaker Kirke. Alle er hjertlig velkommen til vielsen." 
         },
         {            
-                title: "Klesskode",
-                text: "Kleskoden for bryllupet er formelt. Dress, blaser, skjorte og dressbukse, kjole (ikke hvit) Vi ber vennligst alle gjester om å følge kleskoden."
+            title: "Klesskode",
+            text: "Kleskoden for bryllupet er formelt. Bunad, Dress, blaser/skjorte og dressbukse, kjole. Vi ber vennligst alle gjester om å følge kleskoden."
         },
         {
             title: "Bryllupsfesten og alkohol",
-            text: "Det vil være alkoholservering på bryllupsfesten etter middag. Vi stiller med bar med øl, vin og et par utvalgte drinker med bekjente i som bartendere <3. Ønsker du noe annet, ta gjerne med selv det er lov å ta med medbrakt på lokalet."
+            text: "Det vil være alkoholservering på bryllupsfesten etter middag. Vi stiller med bar med øl, vin og et par utvalgte drinker med bekjente i som bartendere <3. Ønsker du noe annet, ta gjerne med litt ekstra selv da det er tillat å ha medbrakt på lokalet."
         },
     ];
-
-
-    console.log(items);
 
     return (
         <>

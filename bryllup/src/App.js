@@ -19,11 +19,11 @@ function App() {
               <NAV/>
                 <main>
                   <Routes>
-                    <Route path='/' element={<Home />} />
+                    <Route path='/Magnus-Ine' element={<Home />} />
                     <Route path='/Program' element={<Program />} />
-                    <Route path='/Guests' element={<Guests />} />
-                    <Route path='/Info' element={<Info />} />
-                    <Route path='/Wishlist' element={<Wishlist />} />
+                    <Route path='/Gjesteliste' element={<Guests />} />
+                    <Route path='/Informasjon' element={<Info />} />
+                    <Route path='/Ønskeliste' element={<Wishlist />} />
                   </Routes>
                 </main>
               <Footer />
