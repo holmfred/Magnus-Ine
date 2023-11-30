@@ -11,11 +11,10 @@
   gap: 350px;
   margin: 0px auto;
 
-  @media (min-width: 1150px){
+  @media (min-width: 1000px){
     display: flex;
     flex-direction: row;
     margin-top: -280px;
-    margin-left: -150px;
    }
 
   & > * {
@@ -62,6 +61,8 @@
   margin: 0px 20px;
   color: #fff;
   text-decoration: none;
+  width: 150px;
+  height: 50px;
 
 }
 

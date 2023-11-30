@@ -1,16 +1,9 @@
-//Fonts
-@font-face {
-  font-family: "Hubballi-Regular";
-  src: url(../../fonts/Hubballi-Regular.ttf);
-}
-
-
 //Header
 #header {
-  margin-top: -30px;
+  margin-top: -10px;
   
   @media (min-width:992px) {
-    margin-top: -60px;
+    margin-top: -40px;
   }
 }
 
@@ -21,13 +14,15 @@ body {
     height: 100%;
     font-family: "Hubballi-Regular", Helvetica;
     overflow-x: hidden;
-    overflow-y: scroll;
     width: 100%;
     color: white;
-    padding: 10px;
   }
 
 // Main
 main {
   margin: 0 auto;
+}
+
+.pages-container {
+  padding: 0px 50px;
 }

@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Banner from './../carousel/banner.png'
+import Banner from './../../../assets/Banner.png';
 
 function MainCarousel() {
   return (

@@ -6,9 +6,11 @@ import CardGrid from "../CardGrid";
 function Wishlist() {
   return (
     <>
+    <div className="pages-container">
       <Heading size="2" content={"Ønskeliste"} />
       <p>Vi ønsker oss også pengegaver</p>
       <CardGrid items={wishesData.items} />
+    </div>  
     </>
   );
 }

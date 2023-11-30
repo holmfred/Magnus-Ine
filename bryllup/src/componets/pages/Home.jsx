@@ -1,11 +1,11 @@
-import MainCarousel from "../ui/carousel/MainCarousel"
+//import MainCarousel from "../ui/carousel/MainCarousel"
+import Banner from "../layout/Banner"
 // import Heading from "../layout/Heading"
 
 function Home () {
     return ( 
         <>
-        {/* <Heading size="2" content={"Forside"} /> */}
-        <MainCarousel />
+        <Banner/>
         </>
     )
 }

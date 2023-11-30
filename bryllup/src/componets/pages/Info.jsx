@@ -31,8 +31,10 @@ function Info() {
 
     return (
         <>
+        <div className='pages-container'>
             <Heading size="2" content={"Informasjon"} />
             <CardGrid items={items} />
+        </div>
         </>
     );
 }
