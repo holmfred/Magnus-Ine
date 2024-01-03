@@ -9,6 +9,9 @@ const CardGrid = ({ items }) => {
                     <Card.Body>
                         <Card.Title>{item.title}</Card.Title>
                         <Card.Text>{item.text}</Card.Text>
+                        {item.url && ( 
+                            <Card.Link href={item.url} target='blank'>Lenke her</Card.Link>
+                        )}
                     </Card.Body>
                 </Card>
             ))}

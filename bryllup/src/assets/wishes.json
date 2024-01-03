@@ -2,16 +2,35 @@
     "items": [
         {
             "title": "Kitchen ønskeliste",
-            "text": "Vi kommer med en ønskeliste på Kitchen.",
+            "text": "Vi har opprettet en bryllupsliste på Kitchen, hvor ting som er kjøpt blir huket av. Slik at ikke flere kjøper samme ting derifra.",
             "url": "https://www.kitchn.no/bryllup/vis-liste/165783/?fbclid=IwAR2SH42RvdWuGQhJV6501M6gFGSRYBvuZcCXWhbv12hnt06QK9uuVNw9mxo"
         },
+        {
+            "title": "Christiania Glasmagasin ønskeliste",
+            "text": "Vi har opprettet en bryllupsliste på Christiania Glasmagasin, hvor ting som er kjøpt blir huket av. Slik at ikke flere kjøper samme ting derifra.",
+            "url": "https://bryllupsliste.cg.no/weddinglist/view/index/id/UTzZFb1D2WGl8pDpPqsPbj9yD0T8qOL4/?___store=cgweddingguest"
+        },
+        {
+            "title": "Kjøkkenmaskin",
+            "text": "Vi ønsker oss en kjøkkenmaskin fra Kenwood. Modell - Titanium Chef Baker XL KVL85004SI i enten sølv eller svart.",
+            "url": "https://www.elkjop.no/product/hjem-rengjoring-og-kjokkenutstyr/kjokkenapparater/kjokkenmaskiner-og-matlaging/kjokkenmaskin/kenwood-titanium-chef-baker-xl-kjokkenmaskin-kvl85004si/351830?fbclid=IwAR1eh2aLmJxhvn3jTSfcqwZlI0k7U-DtjjgzW_bU77S4dEcGk2hrmeHLQZA"
+        },    
         {
             "title": "Harry Potter Lego - Hogwarts Castle",
             "text": "Hva er mer essensielt til å starte et liv sammen som ektepar enn å bygge Hogwarts Castle i sammen?",
             "url": "https://lekekassen.no/lego-harry-potter-71043-hogwarts-castle?utm_medium=prisjakt&utm_source=prisjakt"
         },
         {
-            "title": "Mer ønsker kommer over jula..."
+            "title": "Vinpumpe",
+            "text": "Vinpumpe fra Le Creuset. Til å holde vinen frisk og god.",
+            "url": "https://www.kitchn.no/borddekking/vin-og-barutstyr/vinstopper-og-helletut/le-creuset-vinpumpe-wa-137-svart/?gad_source=1&gclid=CjwKCAiAqNSsBhAvEiwAn_tmxdtEzVYIYxjjcrHIVzry_rP_4MRj0p9spo6aEk0lWxo-UDUcjlCCsRoC0MsQAvD_BwE"
+        },
+        {
+            "title": "Pengegaver",
+            "text": "Vi tar gjerne imot pengegaver i form av kontanter eller vipps."
+        },
+        {
+            "title": "Mer ønsker kommer fortløpende..."
         }
     ]
 }
