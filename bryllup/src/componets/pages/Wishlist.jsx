@@ -8,6 +8,7 @@ function Wishlist() {
     <>
     <div className="pages-container">
       <Heading size="2" content={"Ønskeliste"} />
+      <p>Ved spørsmål vedrørende gaver, ta kontakt med Gro Borgen Kirkemo eller Tone Andersen Kråbøl på Messenger.</p>
       <CardGrid items={wishesData.items} />
     </div>  
     </>
