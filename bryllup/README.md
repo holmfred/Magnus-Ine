@@ -19,7 +19,7 @@ You may also see any lint errors in the console.
 
 Runs a build of the project necessary before a deployment of to github pages 
 
-### `npm deploy`
+### `npm run deploy`
 
 If predeployment has not been performed. Builds and deploys that build automaticly through the gh-pages branches deployment pipeline 
 
