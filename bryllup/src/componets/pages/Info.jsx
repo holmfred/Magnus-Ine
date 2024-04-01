@@ -9,20 +9,12 @@ function Info() {
             text: "Utenfor lokalet er det en stor parkeringsplass, med mulighet for å sette igjen bilen over natten og hente den dagen etter."
         },
         {
-            title: "Mat og Allergier",
-            text: "Maten vil være buffet med flere valgmuligheter. Gi beskjed om allergier eller andre spesielle behov."
-        },
-        {
             title: "Vielsen i kirka",
             text: "Vielsen vil finne sted i Ullensaker Kirke. Alle er hjertlig velkommen til vielsen." 
         },
         {            
             title: "Kleskode",
             text: "Kleskoden til bryllupet er formelt. Eksempler på dette er bunad, dress og kjole, eller skjorte og dressbukse. Vi har ikke valgt noe spesielt tema, men gjerne kom i sommerlige farger og mønstre. Det er opp til hver enkelt. Helst ikke hvitt ;)"
-        },
-        {
-            title: "Bryllupsfesten og alkohol",
-            text: "Det vil være alkoholservering på bryllupsfesten etter middag. Vi stiller med bar med øl, vin og et par utvalgte drinker med bekjente i som bartendere <3. Ønsker du noe annet, ta gjerne med litt ekstra selv da det er tillat å ha medbrakt på lokalet."
         },
         {
             title: "Middagen",
