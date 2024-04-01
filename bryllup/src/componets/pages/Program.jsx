@@ -61,7 +61,6 @@ function Program () {
             <Accordion.Header> ~21:30 - Bryllupsfesten tar seg opp.</Accordion.Header>
               <Accordion.Body>
                 Bryllupsfesten fortsetter med musikk og dans. 
-                Vi ber om at de under 18 år forlater lokalet, utenom søsken av brudeparet. 
               </Accordion.Body>
           </Accordion.Item>
         </Accordion>
