@@ -1,22 +1,57 @@
 @font-face {
   font-family: "Hubballi-Regular";
-  src: url(../../fonts/Hubballi-Regular.ttf);
+  src: url(../../assets/fonts/Hubballi-Regular.ttf);
 }
+#header {
+  margin-top: -10px;
+}
+@media (min-width: 992px) {
+  #header {
+    margin-top: -40px;
+  }
+}
+
 body {
   margin: 0;
   background-color: #1c5148;
   height: 100%;
   font-family: "Hubballi-Regular", Helvetica;
-  overflow: hidden;
+  overflow-x: hidden;
   width: 100%;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.pages-container {
+  padding: 0px 50px;
 }
 
 .navbar {
   text-align: center;
   font-size: 28px;
+  display: grid;
+  justify-content: center;
+}
+
+.nav-desktop {
+  display: none;
+  justify-content: space-evenly;
+  gap: 380px;
+  margin: 0px auto;
+}
+@media (min-width: 1000px) {
+  .nav-desktop {
+    display: flex;
+    flex-direction: row;
+    margin-top: -280px;
+  }
+}
+.nav-desktop > * {
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .brand-logo-desktop {
@@ -30,7 +65,7 @@ body {
 .brand-logo-mobile {
   display: none;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .brand-logo-mobile {
     display: flex;
   }
@@ -38,14 +73,31 @@ body {
 .brand-logo-image {
   margin-left: auto;
   margin-right: auto;
-  width: 450px;
+  max-width: 200px;
+  z-index: 2;
+}
+@media (min-width: 500px) {
+  .brand-logo-image {
+    max-width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .brand-logo-image {
+    max-width: 450px;
+  }
 }
 
 .nav-link {
   font-family: "Hubballi-Regular", Helvetica;
-  margin: 0px 10px;
+  margin: 0px 20px;
   color: #fff;
   text-decoration: none;
+  width: 150px;
+  height: 50px;
+}
+
+.active {
+  color: #fff !important;
 }
 
 .mr-auto {
@@ -54,4 +106,96 @@ body {
 }
 .mr-auto > * {
   margin: -150px 300px;
+}
+
+.fa-bars {
+  color: #fff;
+  background-color: #1c5148;
+  font-size: 40px;
+}
+
+.mobile-nav-container {
+  display: none !important;
+}
+@media (max-width: 1200px) {
+  .mobile-nav-container {
+    display: block !important;
+    bottom: 0 !important;
+  }
+}
+
+button.navbar-toggler {
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+}
+
+.carousel {
+  margin-top: -85px;
+  z-index: 1;
+  text-align: center;
+  max-height: 500px;
+}
+@media (min-width: 500px) {
+  .carousel {
+    margin-top: -120px;
+  }
+}
+
+.banner {
+  background-image: url("../../assets/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: -85px;
+}
+@media (min-width: 500px) {
+  .banner {
+    margin-top: -120px;
+  }
+}
+@media (min-width: 992px) {
+  .banner {
+    height: 70vh;
+    margin-top: -125px;
+  }
+}
+
+.cardGrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 992px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.guest-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+@media (min-width: 992px) {
+  .guest-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.guest-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-title {
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
