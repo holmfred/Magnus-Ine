@@ -17,6 +17,7 @@ function App() {
           <Router>
             <body>
               <NAV/>
+
                 <main>
                   <Routes>
                     <Route path='/Magnus-Ine' element={<Home />} />

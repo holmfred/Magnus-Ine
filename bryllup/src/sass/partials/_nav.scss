@@ -11,7 +11,7 @@
   gap: 380px;
   margin: 0px auto;
 
-  @media (min-width: 1000px){
+  @media (min-width: 1200px){
     display: flex;
     flex-direction: row;
     margin-top: -280px;
@@ -84,4 +84,43 @@
   background-color: $background-color;
   font-size: 40px;
 }
+
+
+.mobile-nav-container {
+  display: none !important;
+
+  @media (max-width: 1200px) {
+    display: flex !important;
+  }
+
+  &.container {
+    align-self: center;
+  }
+
+}
+
+button.navbar-toggler {
+  position: relative;
+  top: 0;
+  margin-top: 30px;
+
+  @media(min-width:500px) {
+    margin-top: 70px;
+  }
+
+  @media(min-width:992px) {
+    margin-top: 120px;
+  }
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+
+  &.collapse.show {
+    margin-bottom: 140px;
+  }
+}
+
+
 
