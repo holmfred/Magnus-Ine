@@ -103,6 +103,9 @@ button.navbar-toggler {
   position: relative;
   top: 0;
   margin-top: 30px;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
 
   @media(min-width:500px) {
     margin-top: 70px;

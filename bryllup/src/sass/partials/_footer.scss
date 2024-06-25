@@ -1,14 +1,4 @@
-.mobile-nav-container {
-    display: none !important;
-  
-    @media (max-width: 1200px) {
-      display: block !important;
-      bottom: 0 !important;
-    }
-  }
-
-  button.navbar-toggler {
-    position: fixed;
-    right: 0;
-    margin-right: 20px;
-  }
+#footer {
+  height: 100px;
+  background-color: $background-color;
+}
