@@ -9,59 +9,56 @@ function Program () {
             <p>Dette er en foreløpig tidsplan, som kommer til å endre seg og bli mer detaljer frem mot dagen.</p>
             <Accordion>
           <Accordion.Item eventKey="0">
-            <Accordion.Header>13:00-14:00 Vielse i Ullensaker Kirke</Accordion.Header>
+            <Accordion.Header>12:30 Oppøte i kirka med Magnus og forlovere</Accordion.Header>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
+            <Accordion.Header>13:00 Vielse i Ullensaker Kirke (Ine ankommer med bil)</Accordion.Header>
               <Accordion.Body>
                   Vielsen vil finne sted i Ullensaker Kirke. Alle er hjertlig velkommen til vielsen.
               </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
-            <Accordion.Header>14:00-14:30 Fotografering med bryllupsfølget ved kirka</Accordion.Header>
-              <Accordion.Body>
-                Vi har med oss fotograf oss med det samme vielsen er ferdig. 
-                Vi ønsker å ta bilder med de to familiene ved kirka i tillegg til hele bryllupsfølget utenfor kirkedøra. 
-              </Accordion.Body>
-          </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header> 15:00-15:40 - Brudeparet er på fotografering</Accordion.Header>
+            <Accordion.Header>14:00 Vielse er slutt</Accordion.Header>
               <Accordion.Body>
-                Brudeparet er på fotografering alene. 
+                  <li>Budeparet reiser mot Nes kirkeruiner med forlovere </li>
+                  <li>Gjestene drar mot lokalet</li>    
               </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header> 15:30 - Gjestene velkommes på lokalet</Accordion.Header>
+            <Accordion.Header>15:00 Gjestene ankommer Bøndernes hus</Accordion.Header>
               <Accordion.Body>
-                Det blir servert bobler og lett mat på lokalet. Gjestene ønskes velkommen av vår kjære toastmaster Tobias Uran Brakstad.
+                  Blir servert velkomstdrikk
               </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header> ~17:00 - Vi setter oss til bords</Accordion.Header>
+            <Accordion.Header>15:30/16:00 Brudeparet ankommer Bøndernes</Accordion.Header>
               <Accordion.Body>
-                Etter glassene er fylt og et par taler serveres middagen.
+                Vi tar fellesbilder med familie/bryllupsfølge
               </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="5">
-            <Accordion.Header> ~19:00 - Opptredener</Accordion.Header>
-            <Accordion.Body>
-              Vi får live konsert av flere band med venner og familie fra begge sider.
-            </Accordion.Body>
+            <Accordion.Header>16:30 - Gjestene setter seg til bords</Accordion.Header>
+              <Accordion.Body>
+                Tobias holder velkomsttale med diverse info
+              </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="6">
-            <Accordion.Header> ~19:40 - Kaker, taler og mingling</Accordion.Header>
-              <Accordion.Body>
-                Kakene blir servert. 
-              </Accordion.Body>
+            <Accordion.Header> 16:30-17:00 - Middagsservering</Accordion.Header>
           </Accordion.Item>
           <Accordion.Item eventKey="7">
-            <Accordion.Header> ~21:00 - "Første" dans</Accordion.Header>
-              <Accordion.Body>
-                Brudeparet danser sin første dans som mann og kone.
-              </Accordion.Body>
+            <Accordion.Header> 17:00-18:00 - Middag og taler</Accordion.Header>
           </Accordion.Item>
           <Accordion.Item eventKey="8">
-            <Accordion.Header> ~21:30 - Bryllupsfesten tar seg opp.</Accordion.Header>
-              <Accordion.Body>
-                Bryllupsfesten fortsetter med musikk og dans. 
-              </Accordion.Body>
+            <Accordion.Header>18:00 - The Blondies (tre sanger)</Accordion.Header>
+          </Accordion.Item>
+          <Accordion.Item eventKey="9">
+            <Accordion.Header> 20:30 - Kråbøls husband</Accordion.Header>
+          </Accordion.Item>
+          <Accordion.Item eventKey="10">
+            <Accordion.Header> 21:15 - Kaker</Accordion.Header>
+          </Accordion.Item>
+          <Accordion.Item eventKey="11">
+            <Accordion.Header> 22:30 - Highwater starter festen</Accordion.Header>
           </Accordion.Item>
         </Accordion>
         </div>
